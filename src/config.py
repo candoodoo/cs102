@@ -47,8 +47,8 @@ class GameConfig:
     VICTORY_MUSIC: Path = ASSET_DIR / "sounds" / "background" / "victory.wav"
     BONUS_LEVEL_END_MUSIC: Path = ASSET_DIR / "sounds" / "background" / "victory.wav"
 
-    INGAME_MUSIC_VOLUME: float = 0.05
-    SOUND_EFFECT_VOLUME: float = 0.18
+    INGAME_MUSIC_VOLUME: float = 0.8
+    SOUND_EFFECT_VOLUME: float = 0.8
 
 
 class LevelLoadingBarConfig:
@@ -73,7 +73,7 @@ class PlayerConfig:
     DEFAULT_X: int = 350
     DEFAULT_Y: int = 400
     SPRITE_PATH: Path = ASSET_DIR / "player"
-    SCALE: float = 0.16
+    SCALE: float = 0.3
     GRAVITY: int = 2
     SPEED: int = 7
     JUMP_VERTICAL_SPEED: int = 26
@@ -111,7 +111,7 @@ class PlayerInventoryConfig:
 
 class PlayerBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
-    SCALE: float = 0.7
+    SCALE: float = 1
     SPEED: int = 35
     GRAVITY: int = 2
     DAMAGE: int = 10
@@ -133,11 +133,11 @@ class ShadowConfig:
 
 class ShadowBossConfig:
     SPRITE_PATH: Path = ASSET_DIR / "npcs" / "shadow"
-    SCALE: float = 0.6
+    SCALE: float = 0.8
     ANIMATION_INTERVAL_MS: int = 200
     SPEED: int = 1
     DAMAGE: int = 1
-    INITIAL_HP: int = 100
+    INITIAL_HP: int = 1000
 
     ANGRY_INTERVAL_MS: int = 7000
     ANGRY_DURATION_MS: int = 2000
@@ -147,7 +147,7 @@ class ShadowBossConfig:
 
 class ShadowBulletConfig:
     SPRITE_PATH: Path = ASSET_DIR / "items" / "shadow_bullet.png"
-    SCALE: float = 0.05
+    SCALE: float = 0.3
     SPEED: int = 5
     GRAVITY: int = 0.3
     DAMAGE: int = 1
@@ -178,7 +178,7 @@ class TrampolineConfig:
 @dataclass
 class NpcConfig:
     entity_type: EntityType
-    scale: float = 0.6
+    scale: float = 0.3
     animation_interval_ms: int = 2500
     default_alpha: int = 180  # 255 is fully opaque
 

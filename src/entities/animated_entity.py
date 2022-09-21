@@ -75,7 +75,6 @@ class AnimatedEntity(MovableEntity):
         self.image = self.sprites[self.action.action_type][self.sprite_index]
         self.rect: Rect = self.image.get_rect()
         self.rect.x, self.rect.y = kwargs["x"], kwargs["y"]
-
         self.hurt_end_t: int = 0
 
     def update(self, events: Sequence[GameEvent], world: World) -> None:

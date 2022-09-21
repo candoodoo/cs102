@@ -1,42 +1,42 @@
 {
-  "name": "Chú Nhân",
+  "name": "Bác Voi",
   "dialogues": [
     [
       {
-        "Subject": "Táy Máy",
-        "Line": "Anh ơi, anh có sao không?"
+        "Subject": "Bác Voi",
+        "Line": "Chào Ninja, rất vui khi bạn đã tới đây!"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Anh đang có chút mệt mỏi."
+        "Subject": "Ninja",
+        "Line": "Khu rừng có chuyện gì mà gọi tôi tới vậy?"
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Em tặng anh chỗ kẹo này nhé."
+        "Subject": "Bác Voi",
+        "Line": "Quái vật đã xâm chiếm khu rừng rồi, Ninja ạ"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Ồ, tốt quá, anh cảm thấy khoẻ hơn rồi, cảm ơn em!"
+        "Subject": "Ninja",
+        "Line": "Nó trông như thế nào vậy bác Voi?"
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Sao trong văn phòng của mình có nhiều bóng đen vậy ạ?"
+        "Subject": "Bác Voi",
+        "Line": "Giống như một con rồng nhưng có thế làm cháy cây"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Vì thung lũng STEAM đang bị năng lượng tiêu cực bao phủ..."
+        "Subject": "Ninja",
+        "Line": "Có phải nó phun ra quả cầu lửa không ạ?"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Năng lượng này kết thành những bóng đen khiến mọi người mệt mỏi."
+        "Subject": "Ninja",
+        "Line": "Và nó có cánh biết bay nữa đúng không bác?"
       },
       {
-        "Subject": "Chú Nhân",
-        "Line": "Đứng đầu là chúa tể bóng đen, đang đóng giữ gần đây."
+        "Subject": "Bác Voi",
+        "Line": "Đúng rồi đấy!"
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Em sẽ lan toả năng lương tích cực để xua tan bóng đen!"
+        "Subject": "Bác Voi",
+        "Line": "Hãy giúp chúng tôi bảo vệ khu rừng, Ninja nhé!"
       }
     ]
   ]

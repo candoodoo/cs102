@@ -18,7 +18,7 @@ class BonusLevelEnd(BaseScene):
         # TODO: clean up, move hardcoded values to configs
         util.display_text(
             self.screen,
-            text="Congratulations! You won the bonus level!",
+            text="Chúc mừng! Bạn đã qua màn nâng cao!",
             x=200,
             y=200,
             font_size=32,
@@ -26,7 +26,7 @@ class BonusLevelEnd(BaseScene):
         now_ms = now()
         if now_ms - self.created_at_ms > 1800:
             util.display_text(
-                self.screen, text="Going back to main menu ...", x=200, y=300, font_size=32
+                self.screen, text="Quay trở lại màn hình chính...", x=200, y=300, font_size=32
             )
         if now_ms - self.created_at_ms > 4100:
             GameEvent(EventType.SHOW_MENU_AND_RESET_LEVEL_ID).post()

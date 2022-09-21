@@ -1,41 +1,41 @@
 {
-  "name": "Chú Nam",
+  "name": "Hươu cao cổ",
   "dialogues": [
     [
       {
-        "Subject": "Chú Nam",
-        "Line": "Em là Táy Máy, thực tập sinh mới phải không?"
+        "Subject": "Hươu cao cổ",
+        "Line": "Ninja đến rồi đấy phải không?"
       },
       {
-        "Subject": "Táy Máy",
-        "Line": "Dạ đúng rồi ạ."
+        "Subject": "Ninja",
+        "Line": "Đúng rồi ạ."
       },
       {
-        "Subject": "Chú Nam",
-        "Line": "Em đi tham quan vui vẻ nhé."
+        "Subject": "Hươu cao cổ",
+        "Line": "Cậu hãy giúp chúng tớ bảo vệ khu rừng nhé."
       },
       {
-        "Subject": "Táy Máy",
+        "Subject": "Ninja",
         "Line": "Nhưng ở đây đường đi tiếp cao quá ạ..."
       },
       {
-        "Subject": "Chú Nam",
-        "Line": " Aha, anh có thể làm một cái bật nhún!"
+        "Subject": "Hươu cao cổ",
+        "Line": " Aha, bạn có thể nhảy lên cái bật nhún này!"
       },
       {
-        "Subject": "Chú Nam",
-        "Line": "Em kiếm cho anh một số linh kiện để làm nhé?"
+        "Subject": "Hươu cao cổ",
+        "Line": "Cậu hãy kiếm đủ số linh kiện để có thể nhảy nhé?"
       },
       {
-        "Subject": "Táy Máy",
+        "Subject": "Ninja",
         "Line": "Được ạ!",
         "QuestToStart": "TRAMPOLINE"
       }
     ],
     [
       {
-        "Subject": "Chú Nam",
-        "Line": "Em kiếm được đủ linh kiện chưa?"
+        "Subject": "Hươu cao cổ",
+        "Line": "Cậu đã kiếm được đủ linh kiện chưa?"
       }
     ]
   ]

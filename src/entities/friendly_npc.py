@@ -24,7 +24,7 @@ class FriendlyNpc(AnimatedEntity):
         super().__init__(*args, **kwargs)
 
         # Shift position up to above the ground tile, since Npc is taller than standard tile size.
-        self.rect.bottom = self.rect.y + GameConfig.TILE_SIZE
+        self.rect.bottom = self.rect.y + GameConfig.TILE_SIZE * 3
 
         self.npc_config: NpcConfig = npc_config
         self.is_near_player: bool = False
